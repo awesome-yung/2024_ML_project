@@ -1,0 +1,264 @@
+{
+    "data": [
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_24.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_49.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_60.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_61.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_77.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_115.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_150.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_204.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_246.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_327.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_620.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_666.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_688.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_707.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_716.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_766.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_768.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_807.wav",
+            "labels": "0"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_34.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_46.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_48.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_67.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_91.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_134.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_171.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_223.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_309.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_366.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_385.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_418.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_428.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_476.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_492.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_550.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_594.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_610.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_626.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_651.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_674.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_679.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_698.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_711.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_723.wav",
+            "labels": "1"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_26.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_28.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_30.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_31.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_37.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_38.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_40.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_41.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_43.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_44.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_100.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_103.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_110.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_400.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_401.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_402.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_403.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_404.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_405.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_406.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_500.wav",
+            "labels": "2"
+        },
+        {
+            "wav": "../../dataset/wav/_d_system_1/segment_505.wav",
+            "labels": "2"
+        }
+    ]
+}
