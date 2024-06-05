@@ -1,1 +1,0 @@
-python ./translation_demo.py --model large --device cuda --translation_lang Korean --compute_type int8

@@ -1,0 +1,10 @@
+pyaudio
+SpeechRecognition
+#--extra-index-url https://download.pytorch.org/whl/cu116
+#torch
+# whisper
+# pip install git+https://github.com/openai/whisper.git 
+faster-whisper
+translatepy
+tk
+nltk

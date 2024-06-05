@@ -1,0 +1,1 @@
+python main.py --model large --device cuda --translation_lang Korean
