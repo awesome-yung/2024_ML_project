@@ -24,8 +24,8 @@ whisper를 fine tuning하여 voice recognition을 실험했다.
 ![poster_team12-1](https://github.com/awesome-yung/2024_ML_project/assets/148609228/059cce67-5283-4710-b0a1-aa726f906fdb)
 
 [![Video Label](http://img.youtube.com/vi/391i1SqkwnI/0.jpg)](https://youtu.be/391i1SqkwnI)   
-<< 시연 _ 강의 영상 >>
+📺 시연 _ 강의 영상 
 
 
 [![Video Label](http://img.youtube.com/vi/wCSQH0Z0Ci8/0.jpg)](https://youtu.be/wCSQH0Z0Ci8)   
-<< 시연 _ 뉴스 영상 >>
+📺 시연 _ 뉴스 영상 
