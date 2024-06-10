@@ -21,4 +21,4 @@ whisper를 fine tuning하여 voice recognition을 실험했다.
 2. requirements 설치 및 cuda 설치
 3. HandRaiser/main.py 실행
 
-[poster_team12.pdf](https://github.com/user-attachments/files/15775168/poster_team12.pdf)
+![poster_team12-1](https://github.com/awesome-yung/2024_ML_project/assets/148609228/059cce67-5283-4710-b0a1-aa726f906fdb)
