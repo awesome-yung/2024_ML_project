@@ -11,6 +11,7 @@ whisper를 fine tuning하여 voice recognition을 실험했다.
 "손 드세요", "손 내리세요" 라는 명령어를 입력받았을 때   
 줌의 "손들기" 버튼을 활성화 한다.
 ![시연_1_gif](https://github.com/awesome-yung/2024_ML_project/assets/148609228/fe16d4f7-ade9-4344-aa13-a444d4f8f72e)
+[![Video Label](http://img.youtube.com/vi/391i1SqkwnI/0.jpg)](https://youtu.be/391i1SqkwnI)
 
 강의 영상에서는 voice recognition이 잘 이루어지지 않지만,   
 뉴스 데이터에서는 voice recognition을 충분히 잘 해낸다.
