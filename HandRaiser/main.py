@@ -9,14 +9,11 @@ import nltk
 from nltk.tokenize import sent_tokenize
 from move_mouse import handraiser
 
-
 from datetime import datetime, timedelta
 from queue import Queue
 from tempfile import NamedTemporaryFile
 from time import sleep
 from sys import platform
-# from faster_whisper import WhisperModel
-# from translatepy.translators.google import GoogleTranslate
 from show_screen import Show_screen
 from transformers import WhisperForConditionalGeneration
 from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
@@ -59,19 +56,13 @@ def main():
     # pipe 생성
     device = "cuda:0"
     torch_dtype = torch.float16
-    # model_id = "ymlee/ML_project_voice2text"
-    # model_id ='ymlee/ML_project_voice2text_largev2'
-    model_id ='ymlee/ML_project_voice2text_largev2_1epoch'
+    model_id ='ymlee/ML_project_custom_data_3epoch_with500'
     from transformers import WhisperForConditionalGeneration
-    # model_id ='SungBeom/whisper-small-ko'
-    # audio_model = WhisperForConditionalGeneration.from_pretrained(model_id)
 
     model = AutoModelForSpeechSeq2Seq.from_pretrained(
         model_id, torch_dtype=torch_dtype, low_cpu_mem_usage=True, use_safetensors=True
     )
     model.to(device)
-
-    # processor = AutoProcessor.from_pretrained(model_id, language="Korean", task="transcribe")
     processor = AutoProcessor.from_pretrained(model_id)
 
     pipe = pipeline(
@@ -132,14 +123,8 @@ def main():
         compute_type = args.compute_type
     cpu_threads = args.threads
     
-    ##########
-    # model_name = "ymlee/whisper-small-hi"
-    # model = WhisperForConditionalGeneration.from_pretrained(model_name, device_map="auto")
-    ##########
-    # model = AutoPeftModelForCausalLM.from_pretrained("ymlee/ML_project_voice2text")  # 이건 나중에 수정
 
     nltk.download('punkt')
-    # audio_model = WhisperModel(model, device = device, compute_type = compute_type , cpu_threads = cpu_threads)
     window = Show_screen()
     
     record_timeout = args.record_timeout
@@ -194,22 +179,14 @@ def main():
                 audio_data = sr.AudioData(last_sample, source.SAMPLE_RATE, source.SAMPLE_WIDTH)
                 audio_samples = audio_data.frame_data
                 audio_array = np.frombuffer(audio_samples, dtype=np.int16)
-                # wav_data = io.BytesIO(audio_data.get_wav_data())
-
-                # Write wav data to the temporary file as bytes.
-                # with open(temp_file, 'w+b') as f:
-                #     f.write(wav_data.read())
 
                 # Read the transcription.
                 text = ""
                     
-                # segments, info = audio_model.transcribe(temp_file)
-                # segments =  pipe(audio_array)['text']  # 수정된 부분
                 segments = pipe(audio_array, generate_kwargs = {"task":"transcribe", "language":"<|ko|>"} )['text']
                 print(segments)
                 for segment in segments:
                     text += segment
-                #text = result['text'].strip()
 
                 # If we detected a pause between recordings, add a new item to our transcripion.
                 # Otherwise edit the existing one.
