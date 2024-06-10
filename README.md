@@ -20,3 +20,5 @@ whisper를 fine tuning하여 voice recognition을 실험했다.
 1. voicemeeter 설치
 2. requirements 설치 및 cuda 설치
 3. HandRaiser/main.py 실행
+
+![Uploading poster.png…]()
