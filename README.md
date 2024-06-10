@@ -1,21 +1,5 @@
 # 2024_ML_project
 
-python = 3.11.9
+![시연_1_gif](https://github.com/awesome-yung/2024_ML_project/assets/148609228/fe16d4f7-ade9-4344-aa13-a444d4f8f72e)
 
-pytorch = 2.1.1
-
-torchaudio = 2.1.1
-
-jiwer = 3.0.4
-
-datasets = 2.19.1
-
-tensorboard = 2.16.2
-
-transformers = 4.40.2
-
-evaluate = 0.4.2
-
-accelerate = 0.30.1
-
-matplotlib = 3.9.0
+![시연_2gif](https://github.com/awesome-yung/2024_ML_project/assets/148609228/6c74dccf-7ba9-488c-b383-97e880f320e2)

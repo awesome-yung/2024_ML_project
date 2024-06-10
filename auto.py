@@ -1,3 +1,0 @@
-import pyautogui
-
-pyautogui.position()
